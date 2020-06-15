@@ -26,7 +26,15 @@
 
 
 	<!-- Analytics -->
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-169346497-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
 
+		gtag('config', 'UA-169346497-1');
+	</script>
 	<!-- Analytics END -->
 
 </head>
@@ -79,7 +87,7 @@
 					<div class="col-sm-12">
 						<img src="img/logo.png" class="center-block image-resize-mode" width="100"
 							alt="La chouette agence webdesign logo Lyon" />
-						<h1 class="text-center hero-bloc-text tc-white ">
+						<h1 class="text-center hero-bloc-text tc-white">
 							La Chouette Agence
 						</h1>
 						<div class="text-center">
@@ -170,8 +178,9 @@
 							aient besoin de créer un site de A à Z ou de donner un coup de jeune à leur site. Que vous
 							ayez besoin d’une identité visuelle complète ou d’une refonte de votre site, n’hésitez pas à
 							nous contacter. Nous travaillerons ensemble pour créer des sites beau et bien structurés,
-							qui seront facilement trouvable sur les moteurs de recherche. <br><br><a
-								class="ltc-white bold-link" href="contact.html">Contactez notre équipe</a><br>
+							qui seront facilement trouvable sur les moteurs de recherche. <br><br>
+							<a href="contact.html" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine"
+								id="cta-hero">Contactez notre équipe</a>
 						</p>
 					</div>
 				</div>
@@ -247,7 +256,7 @@
 		<!-- bloc-4-portfolio END -->
 
 		<!-- bloc-5-cta -->
-		<article class="bloc bgc-dark-slate-blue bg-banniere d-bloc bloc-bg-texture texture-paper" id="bloc-5-cta">
+		<article class="bloc bg-banniere d-bloc bloc-bg-texture texture-paper" id="bloc-5-cta">
 			<div class="container bloc-lg">
 				<div class="row">
 					<h2 class="mg-md text-center tc-white">
