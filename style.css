@@ -919,6 +919,9 @@ h4 {
     .cta-hero {
         padding: 10px;
     }
+    .img-responsive {
+        margin: auto;
+    }
     /* Fin ajout code pour améliorer responsive */
 
     .navbar .nav {
