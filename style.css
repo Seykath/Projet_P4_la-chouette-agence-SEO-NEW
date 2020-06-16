@@ -910,6 +910,17 @@ h4 {
     .b-parallax {
         background-attachment: scroll;
     }
+
+    /* Ajout code pour améliorer responsive */
+
+    .black-background {
+        padding: 40px 0;
+    }
+    .cta-hero {
+        padding: 10px;
+    }
+    /* Fin ajout code pour améliorer responsive */
+
     .navbar .nav {
         padding-top: 0;
         border-top: 1px solid rgba(0, 0, 0, .2);
