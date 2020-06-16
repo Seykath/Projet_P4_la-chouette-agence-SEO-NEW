@@ -1049,6 +1049,11 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+    /* Ajout de position et margin pour un affichage correct responsive des photos du portfolilio */
+    .lightbox-caption {
+        margin: 5px;
+        bottom: 0;
+    }
 }
 
 @media (max-width: 767px) {
