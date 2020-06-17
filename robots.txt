@@ -1,4 +1,4 @@
 User-Agent: *
 Allow: /
-Sitemap: https://seykath.github.io/Projet_P4_la-chouette-agence-SEO-NEW/sitemap.xml
+Sitemap: https://seykath.github.io/Projet_P4_la-chouette-agence-SEO-NEW/
 
